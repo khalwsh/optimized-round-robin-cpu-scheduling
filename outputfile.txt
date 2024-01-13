@@ -1,0 +1,295 @@
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+
+
+This test case number 1
+---------------------------------------------------------------------
+before applying dp to get the optimal order :
+1 7 4 0 9 4 8 8 2 4 
+after applying dp :3 0 8 2 5 9 1 6 7 4 
+optimized TimeSlice using dynamic programming
+--------------------------------------------------------------------------
+ResponseTime: 
+The processes number 0 has response time = 0
+The processes number 1 has response time = 0
+The processes number 2 has response time = 1
+The processes number 3 has response time = 3
+The processes number 4 has response time = 7
+The processes number 5 has response time = 11
+The processes number 6 has response time = 15
+The processes number 7 has response time = 22
+The processes number 8 has response time = 30
+The processes number 9 has response time = 38
+TurningAroundTime 
+The processes number 0 has TurnAround Time = 0
+The processes number 1 has TurnAround Time = 1
+The processes number 2 has TurnAround Time = 3
+The processes number 3 has TurnAround Time = 7
+The processes number 4 has TurnAround Time = 11
+The processes number 5 has TurnAround Time = 15
+The processes number 6 has TurnAround Time = 22
+The processes number 7 has TurnAround Time = 30
+The processes number 8 has TurnAround Time = 38
+The processes number 9 has TurnAround Time = 47
+--------------------------------------------------------------------------
+normal TimeSlice using dynamic programming
+--------------------------------------------------------------------------
+ResponseTime: 
+The processes number 0 has response time = 0
+The processes number 1 has response time = 1
+The processes number 2 has response time = 8
+The processes number 3 has response time = 12
+The processes number 4 has response time = 12
+The processes number 5 has response time = 21
+The processes number 6 has response time = 25
+The processes number 7 has response time = 33
+The processes number 8 has response time = 41
+The processes number 9 has response time = 43
+TurningAroundTime 
+The processes number 0 has TurnAround Time = 140
+The processes number 1 has TurnAround Time = 140
+The processes number 2 has TurnAround Time = 140
+The processes number 3 has TurnAround Time = 140
+The processes number 4 has TurnAround Time = 141
+The processes number 5 has TurnAround Time = 141
+The processes number 6 has TurnAround Time = 141
+The processes number 7 has TurnAround Time = 141
+The processes number 8 has TurnAround Time = 141
+The processes number 9 has TurnAround Time = 141
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+
+
+This test case number 2
+---------------------------------------------------------------------
+before applying dp to get the optimal order :
+5 1 7 1 1 5 2 7 6 1 
+after applying dp :1 3 4 9 6 0 5 8 2 7 
+optimized TimeSlice using dynamic programming
+--------------------------------------------------------------------------
+ResponseTime: 
+The processes number 0 has response time = 0
+The processes number 1 has response time = 1
+The processes number 2 has response time = 2
+The processes number 3 has response time = 3
+The processes number 4 has response time = 4
+The processes number 5 has response time = 6
+The processes number 6 has response time = 11
+The processes number 7 has response time = 16
+The processes number 8 has response time = 22
+The processes number 9 has response time = 29
+TurningAroundTime 
+The processes number 0 has TurnAround Time = 1
+The processes number 1 has TurnAround Time = 2
+The processes number 2 has TurnAround Time = 3
+The processes number 3 has TurnAround Time = 4
+The processes number 4 has TurnAround Time = 6
+The processes number 5 has TurnAround Time = 11
+The processes number 6 has TurnAround Time = 16
+The processes number 7 has TurnAround Time = 22
+The processes number 8 has TurnAround Time = 29
+The processes number 9 has TurnAround Time = 36
+--------------------------------------------------------------------------
+normal TimeSlice using dynamic programming
+--------------------------------------------------------------------------
+ResponseTime: 
+The processes number 0 has response time = 0
+The processes number 1 has response time = 5
+The processes number 2 has response time = 6
+The processes number 3 has response time = 13
+The processes number 4 has response time = 14
+The processes number 5 has response time = 15
+The processes number 6 has response time = 20
+The processes number 7 has response time = 22
+The processes number 8 has response time = 29
+The processes number 9 has response time = 35
+TurningAroundTime 
+The processes number 0 has TurnAround Time = 17
+The processes number 1 has TurnAround Time = 17
+The processes number 2 has TurnAround Time = 20
+The processes number 3 has TurnAround Time = 20
+The processes number 4 has TurnAround Time = 20
+The processes number 5 has TurnAround Time = 21
+The processes number 6 has TurnAround Time = 21
+The processes number 7 has TurnAround Time = 24
+The processes number 8 has TurnAround Time = 26
+The processes number 9 has TurnAround Time = 26
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+
+
+This test case number 3
+---------------------------------------------------------------------
+before applying dp to get the optimal order :
+2 3 2 2 1 6 8 5 7 6 
+after applying dp :4 0 2 3 1 7 5 9 8 6 
+optimized TimeSlice using dynamic programming
+--------------------------------------------------------------------------
+ResponseTime: 
+The processes number 0 has response time = 0
+The processes number 1 has response time = 1
+The processes number 2 has response time = 3
+The processes number 3 has response time = 5
+The processes number 4 has response time = 7
+The processes number 5 has response time = 10
+The processes number 6 has response time = 15
+The processes number 7 has response time = 21
+The processes number 8 has response time = 27
+The processes number 9 has response time = 34
+TurningAroundTime 
+The processes number 0 has TurnAround Time = 1
+The processes number 1 has TurnAround Time = 3
+The processes number 2 has TurnAround Time = 5
+The processes number 3 has TurnAround Time = 7
+The processes number 4 has TurnAround Time = 10
+The processes number 5 has TurnAround Time = 15
+The processes number 6 has TurnAround Time = 21
+The processes number 7 has TurnAround Time = 27
+The processes number 8 has TurnAround Time = 34
+The processes number 9 has TurnAround Time = 42
+--------------------------------------------------------------------------
+normal TimeSlice using dynamic programming
+--------------------------------------------------------------------------
+ResponseTime: 
+The processes number 0 has response time = 0
+The processes number 1 has response time = 2
+The processes number 2 has response time = 5
+The processes number 3 has response time = 7
+The processes number 4 has response time = 9
+The processes number 5 has response time = 10
+The processes number 6 has response time = 16
+The processes number 7 has response time = 24
+The processes number 8 has response time = 29
+The processes number 9 has response time = 36
+TurningAroundTime 
+The processes number 0 has TurnAround Time = 38
+The processes number 1 has TurnAround Time = 38
+The processes number 2 has TurnAround Time = 38
+The processes number 3 has TurnAround Time = 38
+The processes number 4 has TurnAround Time = 38
+The processes number 5 has TurnAround Time = 38
+The processes number 6 has TurnAround Time = 40
+The processes number 7 has TurnAround Time = 40
+The processes number 8 has TurnAround Time = 41
+The processes number 9 has TurnAround Time = 41
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+
+
+This test case number 4
+---------------------------------------------------------------------
+before applying dp to get the optimal order :
+8 9 2 7 9 5 4 3 1 2 
+after applying dp :8 2 9 7 6 5 3 0 1 4 
+optimized TimeSlice using dynamic programming
+--------------------------------------------------------------------------
+ResponseTime: 
+The processes number 0 has response time = 0
+The processes number 1 has response time = 1
+The processes number 2 has response time = 3
+The processes number 3 has response time = 5
+The processes number 4 has response time = 8
+The processes number 5 has response time = 12
+The processes number 6 has response time = 17
+The processes number 7 has response time = 24
+The processes number 8 has response time = 32
+The processes number 9 has response time = 41
+TurningAroundTime 
+The processes number 0 has TurnAround Time = 1
+The processes number 1 has TurnAround Time = 3
+The processes number 2 has TurnAround Time = 5
+The processes number 3 has TurnAround Time = 8
+The processes number 4 has TurnAround Time = 12
+The processes number 5 has TurnAround Time = 17
+The processes number 6 has TurnAround Time = 24
+The processes number 7 has TurnAround Time = 32
+The processes number 8 has TurnAround Time = 41
+The processes number 9 has TurnAround Time = 50
+--------------------------------------------------------------------------
+normal TimeSlice using dynamic programming
+--------------------------------------------------------------------------
+ResponseTime: 
+The processes number 0 has response time = 0
+The processes number 1 has response time = 8
+The processes number 2 has response time = 17
+The processes number 3 has response time = 19
+The processes number 4 has response time = 26
+The processes number 5 has response time = 35
+The processes number 6 has response time = 40
+The processes number 7 has response time = 44
+The processes number 8 has response time = 47
+The processes number 9 has response time = 48
+TurningAroundTime 
+The processes number 0 has TurnAround Time = 33
+The processes number 1 has TurnAround Time = 37
+The processes number 2 has TurnAround Time = 37
+The processes number 3 has TurnAround Time = 39
+The processes number 4 has TurnAround Time = 43
+The processes number 5 has TurnAround Time = 43
+The processes number 6 has TurnAround Time = 43
+The processes number 7 has TurnAround Time = 43
+The processes number 8 has TurnAround Time = 43
+The processes number 9 has TurnAround Time = 43
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+
+
+This test case number 5
+---------------------------------------------------------------------
+before applying dp to get the optimal order :
+3 4 1 1 3 8 7 4 2 7 
+after applying dp :2 3 8 0 4 1 7 6 9 5 
+optimized TimeSlice using dynamic programming
+--------------------------------------------------------------------------
+ResponseTime: 
+The processes number 0 has response time = 0
+The processes number 1 has response time = 1
+The processes number 2 has response time = 2
+The processes number 3 has response time = 4
+The processes number 4 has response time = 7
+The processes number 5 has response time = 10
+The processes number 6 has response time = 14
+The processes number 7 has response time = 18
+The processes number 8 has response time = 25
+The processes number 9 has response time = 32
+TurningAroundTime 
+The processes number 0 has TurnAround Time = 1
+The processes number 1 has TurnAround Time = 2
+The processes number 2 has TurnAround Time = 4
+The processes number 3 has TurnAround Time = 7
+The processes number 4 has TurnAround Time = 10
+The processes number 5 has TurnAround Time = 14
+The processes number 6 has TurnAround Time = 18
+The processes number 7 has TurnAround Time = 25
+The processes number 8 has TurnAround Time = 32
+The processes number 9 has TurnAround Time = 40
+--------------------------------------------------------------------------
+normal TimeSlice using dynamic programming
+--------------------------------------------------------------------------
+ResponseTime: 
+The processes number 0 has response time = 0
+The processes number 1 has response time = 3
+The processes number 2 has response time = 7
+The processes number 3 has response time = 8
+The processes number 4 has response time = 9
+The processes number 5 has response time = 12
+The processes number 6 has response time = 20
+The processes number 7 has response time = 27
+The processes number 8 has response time = 31
+The processes number 9 has response time = 33
+TurningAroundTime 
+The processes number 0 has TurnAround Time = 25
+The processes number 1 has TurnAround Time = 25
+The processes number 2 has TurnAround Time = 25
+The processes number 3 has TurnAround Time = 25
+The processes number 4 has TurnAround Time = 25
+The processes number 5 has TurnAround Time = 28
+The processes number 6 has TurnAround Time = 30
+The processes number 7 has TurnAround Time = 30
+The processes number 8 has TurnAround Time = 30
+The processes number 9 has TurnAround Time = 32
